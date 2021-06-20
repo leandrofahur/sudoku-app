@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   :root {
     --black: #000000;
-    --white: #F3F3F3;
+    --white: #FFFFFF;
 
     --blue: #0389ff;
     --dark-blue: #000099;
@@ -25,6 +25,7 @@ export default createGlobalStyle`
     width: 100%;
     height: 100%;    
     background: var(--black);
+    color: var(--white);
   }
   *, button, input {
     border: 0;
